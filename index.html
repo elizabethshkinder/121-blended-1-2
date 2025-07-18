@@ -36,7 +36,9 @@
               <li class="header-nav-item" href="./customer.html">
                 <a class="header-nav-link">Customer</a>
               </li>
-              <li class="header-nav-item"><a class="header-nav-link" href="">Resourses</a></li>
+              <li class="header-nav-item">
+                <a class="header-nav-link" href="">Resourses</a>
+              </li>
             </ul>
           </nav>
           <ul class="header-btn-set">
@@ -51,19 +53,30 @@
       </div>
     </header>
     <main>
-      
+
      <!-- hero section -->
       <section clss="hero">
-        <div class="container">
-          <h1>Work at the speed of thought</h1>
-          <p>
+        <div class="hero-wrapper container">
+          <div class="hero-content">
+          <h1 class="hero-title">Work at the speed of thought</h1>
+          <p class="hero-text">
             Tools, tutorials, design and innovation experts, all in one place! The
             most intuitive way to imagine your next user experience.
           </p>
-          <ul>
-            <li><button type="button">Get started</button></li>
-            <li><button type="button">Watch the Video</button></li>
+          <ul class="hero-btn-set">
+            <li class="hero-btn-set-item">
+              <button class="hero-btn" type="button">Get started</button>
+            </li>
+            <li>
+              <button class="hero-btn-video" type="button">  
+                <svg class="hero-btn-video-icon" width="16" height="18">
+                  <use href="./images/icons.svg#icon-play"></use>
+                </svg>
+                Watch the Video
+              </button>
+            </li>
           </ul>
+          </div>
           <img
             src="./images/hero-img.svg"
             alt="hero image"
