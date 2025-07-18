@@ -1,46 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Business promotion</title>
-  </head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+  />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet"
+  />
+  <title>Business promotion</title>
+</head>
   <body>
-    <header>
-      <a href="./index.html">
-        <img src="./images/logo.svg" alt="logo" width="40" height="36" />
-        Product
-      </a>
-      <nav>
-        <ul>
-          <li href="./index.html"><a>Product</a></li>
-          <li href="./pricing.html"><a>Pricing</a></li>
-          <li href="./customer.html"><a>Customer</a></li>
-          <li><a>Resourses</a></li>
-        </ul>
-      </nav>
 
-      <ul>
-        <li><button type="button">Sign in</button></li>
-        <li><button type="button">Sign up</button></li>
-      </ul>
+    <!-- header section -->
+    <header class="header">
+        <div class="container header-container">
+          <a href="./index.html" class="logo" class="header-logo">
+            <img src="./images/logo.svg" alt="logo" width="40" height="36" />
+            Product
+          </a>
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li class="header-nav-item" href="./index.html">
+                <a class="header-nav-link current">Product</a>
+              </li>
+              <li class="header-nav-item" href="./pricing.html">
+                <a class="header-nav-link">Pricing</a>
+              </li>
+              <li class="header-nav-item" href="./customer.html">
+                <a class="header-nav-link">Customer</a>
+              </li>
+              <li class="header-nav-item"><a class="header-nav-link" href="">Resourses</a></li>
+            </ul>
+          </nav>
+          <ul class="header-btn-set">
+            <li class="header-btn-set-item">
+              <button class="header-btn" type="button">Sign in</button>
+            </li>
+            <li class="header-btn-set-item">
+              <button class="header-btn"  type="button">Sign up</button>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
-      <!-- HERO SECTION -->
+      
+     <!-- hero section -->
+      <section clss="hero">
+        <div class="container">
+          <h1>Work at the speed of thought</h1>
+          <p>
+            Tools, tutorials, design and innovation experts, all in one place! The
+            most intuitive way to imagine your next user experience.
+          </p>
+          <ul>
+            <li><button type="button">Get started</button></li>
+            <li><button type="button">Watch the Video</button></li>
+          </ul>
+          <img
+            src="./images/hero-img.svg"
+            alt="hero image"
+            width="610"
+            height="555"
+          />
+        </div>
+      </section>
+      <!-- ICON SECTION -->
+      <section class="product">
+        <div class="container">
+          <h2 class="product-title">Product was Built Specifically for You</h2>
+          <ul class=product-list>
+            <li class="product-list-item">
+              <img src="./images/icon-1.svg" alt="" />
+              <h3>First click tests</h3>
+              <p>While most people enjoy casino gambling,</p>
+            </li class="product-list-item">
+            <li>
+              <img src="./images/icon-2.svg" alt="" />
+              <h3>Design surveys</h3>
+              <p>Sports betting, lottery and bingo playing for the fun</p>
+            </li>
+            <li class="product-list-item">
+              <img src="./images/icon-3.svg" alt="" />
+              <h3>Preference tests</h3>
+              <p>The Myspace page defines the individual.</p>
+            </li>
+            <li class="product-list-item">
+              <img src="./images/icon-4.svg" alt="" />
+              <h3>Five second tests</h3>
+              <p>Personal choices and the overall personality of the person. </p>
+            </li>
+          </ul>
+          <button type="button">sing up now</button>
+        </div>
+      </section>
+      <!-- INF SECTION -->
       <section>
-        <h1></h1>
-        <p></p>
+        <h2 class="visually hiden"></h2>
+        <h3 class="inf-title"><span class="inf-subtitle">Effortless Validation for</span> Management</h3>
+        <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
         <ul>
-          <li><button type="button">Get started</button></li>
-          <li><button type="button"></button></li>
+          <li>
+            <h4>Accessory makers</h4>
+            <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+          </li>
+          <li>
+            <h4>Alterationists</h4>
+            <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
+          </li>
         </ul>
-        <img
-          src="./images/hero-img.svg"
-          alt="hero image"
-          width="610"
-          height="555"
-        />
+
+        <h3 class="inf-title"><span class="inf-subtitle">Easier decision making for</span>Customer Support</h3>
+        <p class="inf-text">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+        <ul class="inf-list">
+          <li class="inf-list-item">
+            <p class="inf-list-item-text">Never worry about overpaying for your energy again.</p>
+          </li>
+          <li class="inf-list-item">
+            <p class="inf-list-item-text">We will only switch you to energy companies that we trust and will treat you right.</p>
+          </li>
+           <li class="inf-list-item">
+            <p class="inf-list-item-text">We track the markets daily and know where the savings are.</p>
+          </li>
+        </ul>
+
+      </section>
+      <!-- PRICE SECTION -->
+      <section>
+        <h2>Price Table</h2>
+        <p>We offer competitive price</p>
+        <ul>
+          <li>
+            <h3>Free</h3>
+            <p>Brief price description</p>
+            <h4>$0 per/month</h4>
+            <ul>
+              <li>Only 2 Operators</li>
+              <li>Notifications</li>
+              <li>Landing Pages</li>
+            </ul>
+            <button type="button">Order now</button>
+          </li>
+          <li>
+            <h3>Standard</h3>
+            <p>Brief price description</p>
+            <h4>$5 per/month</h4>
+            <ul>
+              <li>5+ Operators</li>
+              <li>Notifications</li>
+              <li>Landing Pages</li>
+            </ul>
+            <button type="button">Order now</button>
+          </li>
+          <li>
+            <h3>Premium</h3>
+            <p>Brief price description</p>
+            <h4>$10 per/month</h4>
+            <ul>
+              <li>10+ Operators</li>
+              <li>Notifications</li>
+              <li>Landing Pages</li>
+            </ul>
+            <button type="button">Order now</button>
+          </li>
+        </ul>
       </section>
     </main>
+    <footer class="page-footer">
+      <form class="page-footer-form">
+        <label for="user-tel" class="footer-form-wrapper">knowing you're always on the best energy deal. 
+          <input id="user-tel" class="footer-form-input" type="tel" name="user-phone" placeholder="Enter your phone number"/>
+          <button type="submit" name="footer-form-button">Sign up Now</button>
+        </label>
+      </form>
+    </footer>
   </body>
 </html>
