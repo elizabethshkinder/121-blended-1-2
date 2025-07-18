@@ -121,15 +121,11 @@ img {
   color: #173a56;
 }
 
-.header-btn:hover {
+.header-btn:hover,
+.header-bnt:focus {
   border: none;
   background: #02897a;
   color: #fff;
-}
-
-.header-bnt:focus {
-  color: #fff background-color;
-  border: none;
 }
 
 /* hero section */
@@ -406,6 +402,144 @@ img {
   align-items: center;
   gap: 8px;
 }
+
+/* experts section */
+
+.experts-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 916px;
+}
+
+.experts-title {
+  padding-bottom: 24px;
+
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+}
+
+.experts-text {
+  padding-bottom: 40px;
+  max-width: 542px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  color: #22343d;
+}
+
+.experts-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 24px;
+  column-gap: 91px;
+
+  padding-bottom: 50px;
+}
+
+.experts-list-item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.circle-icon-1::before {
+  content: '';
+  display: block;
+  border: 2px solid #ff0909;
+  border-radius: 50%;
+  width: 98px;
+  height: 98px;
+
+  background-image: url(../images/avatar-1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.circle-icon-2::after {
+  content: '';
+  display: block;
+  border: 2px solid #740a76;
+  border-radius: 50%;
+  width: 98px;
+  height: 98px;
+
+  background-image: url(../images/avatar-2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.circle-icon-3::before {
+  content: '';
+  display: block;
+  border: 2px solid #02897a;
+  border-radius: 50%;
+  width: 98px;
+  height: 98px;
+
+  background-image: url(../images/avatar-3.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.circle-icon-4::after {
+  content: '';
+  display: block;
+  border: 2px solid #035b81;
+  border-radius: 50%;
+  width: 98px;
+  height: 98px;
+
+  background-image: url(../images/avatar-4.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.experts-list-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 24px;
+  box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+
+  width: 281px;
+  height: 50px;
+
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #2f281e;
+}
+
+.experts-btn {
+  padding: 15px 32px;
+
+  max-width: 216px;
+  height: 53px;
+
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+
+  font-weight: 700;
+  font-size: 16px;
+  color: #173a56;
+}
+
+.experts-btn:hover,
+.experts-btn:focus {
+  background-color: #02897a;
+  border: none;
+  color: #fff;
+}
+
+/* price section */
 
 .page-footer {
   display: flex;
