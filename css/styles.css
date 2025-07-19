@@ -789,6 +789,139 @@ img {
   color: #02897a;
 }
 
+/* feedback section */
+
+.feedback {
+  margin-top: 100px;
+}
+
+.feedback-title {
+  text-align: center;
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.78;
+  letter-spacing: 0.01em;
+  color: #22343d;
+}
+
+.feedback-text {
+  max-width: 537px;
+  margin: 0 auto 40px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #22343d;
+}
+
+.feedback-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+
+.feedback-list-item {
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 30px 35px;
+  width: 327px;
+  height: 240px;
+  background-color: #fff;
+}
+
+.feedback-list-text {
+  margin-bottom: 16px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  color: #737373;
+}
+
+.feedback-score-icon {
+  margin-bottom: 16px;
+}
+
+.feedback-person-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.feedback-avatar::before {
+  content: '';
+  display: block;
+
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+
+  stroke-width: 1px;
+  stroke: #bdbdbd;
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.feedback-icon-1::before {
+  background-image: url(../images/feedback-avatar-1.svg);
+}
+
+.feedback-icon-2::before {
+  background-image: url(../images/feedback-avatar-2.svg);
+}
+
+.feedback-icon-3::before {
+  background-image: url(../images/feedback-avatar-3.svg);
+}
+
+.feedback-person-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-author {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
+}
+
+.feedback-author-position {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.01em;
+  color: #252b42;
+}
+
+/* subscribe section */
+
+.subscribe {
+  margin-top: 100px;
+}
+
+.subscribe-wrapper {
+  border-radius: 32px;
+  width: 968px;
+  height: 345px;
+  background-color: #02897a;
+}
+
+.subscribe-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.51;
+  color: #fff;
+}
+
 /* footer section */
 
 .page-footer {
