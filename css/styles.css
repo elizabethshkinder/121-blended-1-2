@@ -1091,7 +1091,7 @@ img {
 
 .footer-list-link:hover,
 .footer-list-link:focus {
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
 }
 
