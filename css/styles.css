@@ -97,12 +97,13 @@ img {
   font-size: 16px;
   line-height: 1.75;
   color: #22343d;
+
+  transition: font-weight 100ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-link:hover,
 .header-nav-link:focus {
-  font-weight: 600;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: bold;
 }
 
 .current {
@@ -125,14 +126,16 @@ img {
   border: 1px solid #bcd0e5;
   border-radius: 4px;
   color: #173a56;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-btn:hover,
 .header-bnt:focus {
   border: none;
-  background: #02897a;
+  background-color: #02897a;
   color: #fff;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* hero section */
@@ -181,6 +184,9 @@ img {
   font-weight: 700;
   font-size: 16px;
   color: #173a56;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -188,7 +194,6 @@ img {
   border: none;
   background: #02897a;
   color: #fff;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn-video {
@@ -205,6 +210,9 @@ img {
   font-weight: 700;
   font-size: 16px;
   color: #173a56;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn-video-icon {
@@ -219,7 +227,6 @@ img {
   border: none;
   color: #02897a;
   fill: #02897a;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* product section */
@@ -309,6 +316,8 @@ img {
   font-weight: 700;
   font-size: 16px;
   color: #173a56;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .product-btn:hover,
@@ -316,7 +325,6 @@ img {
   border: none;
   background: #02897a;
   color: #fff;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* information section */
@@ -550,6 +558,9 @@ img {
   font-weight: 700;
   font-size: 16px;
   color: #173a56;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .experts-btn:hover,
@@ -557,7 +568,6 @@ img {
   background-color: #02897a;
   border: none;
   color: #fff;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* blog section */
@@ -627,13 +637,13 @@ img {
   font-size: 24px;
   line-height: 1.66667;
   color: #22343d;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .blog-info:hover,
 .blog-info:focus {
   cursor: pointer;
   color: #02897a;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* price section */
@@ -677,6 +687,8 @@ img {
   height: 456px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
   background: #fff;
+
+  transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-list-item-title {
@@ -684,6 +696,7 @@ img {
   font-size: 24px;
   line-height: 1.67;
   color: #22343d;
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-list-item-text {
@@ -693,6 +706,7 @@ img {
   font-size: 16px;
   line-height: 2.5;
   color: #22343d;
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-list-indicator {
@@ -702,6 +716,7 @@ img {
   gap: 8px;
 
   margin-bottom: 16px;
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-indicator-number {
@@ -711,12 +726,14 @@ img {
   letter-spacing: 0em;
   text-align: center;
   color: #02897a;
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-indicator-data {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-indicator-sign {
@@ -725,6 +742,7 @@ img {
   line-height: 1.25;
   letter-spacing: 0em;
   color: #02897a;
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-indicator-period {
@@ -733,6 +751,7 @@ img {
   line-height: 1.19;
   letter-spacing: 0.01em;
   color: #afafaf;
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-indicator-list {
@@ -745,6 +764,7 @@ img {
   line-height: 1.38;
   letter-spacing: 0.01em;
   color: #22343d;
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-indicator-list-item:not(:last-child) {
@@ -758,9 +778,12 @@ img {
   height: 44px;
   color: #fff;
   background-color: #02897a;
+  transition: transform 0.3s ease, color 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-btn:hover {
+  transform: scale(1.1);
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -768,43 +791,36 @@ img {
 .price-list-item:focus {
   background: #02897a;
   color: #fff;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-list-item:hover .price-list-item-title,
 .price-list-item:focus .price-list-item-title {
   color: #fff;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-list-item:hover .price-list-item-text,
 .price-list-item:focus .price-list-item-text {
   color: #fff;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-list-item:hover .price-indicator-number,
 .price-list-item:focus .price-indicator-number {
   color: #fff;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-list-item:hover .price-indicator-sign,
 .price-list-item:focus .price-indicator-sign {
   color: #fff;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-list-item:hover .price-indicator-period,
 .price-list-item:focus .price-indicator-period {
   color: #fff;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-list-item:hover .price-indicator-list-item,
 .price-list-item:focus .price-indicator-list-item {
   color: #fff;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-list-item:hover .price-btn {
@@ -855,6 +871,11 @@ img {
   width: 327px;
   height: 240px;
   background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.feedback-list-item:hover {
+  transform: scale(1.1);
 }
 
 .feedback-list-text {
@@ -969,13 +990,12 @@ img {
   font-weight: 600;
   font-size: 20px;
   color: #02897a;
+  transition: transform 0.3s ease;
 }
 
 .subscribe-btn:hover {
-  color: #173a56;
-  background-color: #edfffc;
+  transform: scale(1.1);
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-img {
@@ -1030,12 +1050,13 @@ img {
 .footer-social-list-icon {
   stroke: #02897a;
   fill: #edfffc;
+
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-list-icon:hover,
 .footer-social-list-icon:focus {
   stroke: #173a56;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-info-list-wrapper {
@@ -1055,22 +1076,20 @@ img {
   color: #22343d;
 }
 
-.footer-list-item {
-  white-space: nowrap;
-}
-
 .footer-list-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 2.19;
   color: #22343d;
+
+  white-space: nowrap;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-list-link:hover,
 .footer-list-link:focus {
+  color: #02897a;
   cursor: pointer;
-  font-weight: 600;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-form {
@@ -1110,6 +1129,9 @@ img {
   border: 1px solid #bcd0e5;
   border-radius: 4px;
   background-color: #fff;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-form-input::placeholder {
@@ -1144,14 +1166,16 @@ img {
   font-size: 16px;
   text-align: center;
   color: #173a56;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-form-btn:hover,
 .footer-form-btn:focus {
   border: none;
-  background: #02897a;
+  background-color: #02897a;
   color: #fff;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .copyright-notice {
